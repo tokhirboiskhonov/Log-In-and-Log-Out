@@ -1,0 +1,8 @@
+.users__list{
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+}
+
+.user {
+    list-style: none;
+}

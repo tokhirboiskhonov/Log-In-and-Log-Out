@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <ul class="users__list"></ul>
+
+    <template class="user__template"> 
+        <li class="user">
+            <img
+            class="user__avatar"
+            src="https://via.placeholder.com/50" 
+            alt="Template image" width="100"
+            height="100">
+
+            <p class="user__fullname">George Bluth</p>
+
+            <a class="user__email"  href="mailto:george.bluth@reqres.in">
+                george.bluth@reqres.in
+            </a>
+
+            <button class="user__delete-button">
+                Delete
+            </button>
+        </li>
+    </template>
+
+    <button id="btnLogOut">Log Out</button>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
